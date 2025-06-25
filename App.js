@@ -1,26 +1,30 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
-import TodoList from "./screen/TodoList";
+import { StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import "react-native-gesture-handler";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import StackRouter from "./navigation/StackRouter";
+import { NavigationContainer } from "@react-navigation/native";
 
 export default function App() {
     return (
-        <SafeAreaView style={styles.container}>
-            <GestureHandlerRootView>
-                <TodoList />
-            </GestureHandlerRootView>
+        <GestureHandlerRootView style={styles.container}>
+            <SafeAreaView style={styles.safeArea}>
+                <NavigationContainer>
+                    <StackRouter />
+                </NavigationContainer>
+            </SafeAreaView>
             <StatusBar style="auto" />
-        </SafeAreaView>
+        </GestureHandlerRootView>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+    },
+    safeArea: {
+        flex: 1,
         backgroundColor: "#fff",
-        alignItems: "center",
-        justifyContent: "center",
     },
 });

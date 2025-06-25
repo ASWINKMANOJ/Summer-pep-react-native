@@ -1,4 +1,4 @@
-package com.minimum
+package com.anonymous.minimum
 
 import android.os.Build
 import android.os.Bundle
