@@ -57,4 +57,4 @@ Displays current weather information for a selected location.
 - `asset/` - App assets (icons, images)
 
 ## License
-MIT
+[MIT](LICENSE)
