@@ -56,5 +56,5 @@ Displays current weather information for a selected location.
 - `screenshots/` - App screenshots
 - `asset/` - App assets (icons, images)
 
-## License
-[MIT](LICENSE)
+## 📃 License
+[This project is open source and available under the](LICENSE)
