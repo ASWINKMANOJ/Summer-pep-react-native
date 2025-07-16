@@ -5,6 +5,15 @@
     "version": "1.0.0",
     "android": {
       "package": "com.anonymous.minimum"
+    },
+    "icon": "./asset/ic_launcher.png",
+    "plugins": [
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "312c309e-0138-49ad-8ea8-fb27f7baa819"
+      }
     }
   }
 }

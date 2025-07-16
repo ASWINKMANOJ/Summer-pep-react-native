@@ -7,10 +7,11 @@ export default function StackRouter() {
     return (
         <Stack.Navigator>
             <Stack.Screen
-                name="Guess"
+                name="Guessing game"
                 component={GuessScreen}
                 options={{
                     headerTitleAlign: "center",
+                    title: "Guess",
                 }}
             />
             <Stack.Screen
