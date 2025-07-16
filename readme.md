@@ -12,19 +12,26 @@ This is a multi-feature React Native application demonstrating several simple sc
 ### Guess the Number Game
 A simple game where the user tries to guess a randomly generated number.
 
-![Guess the Number - Start](screenshots/guess-1.png)
-![Guess the Number - Gameplay](screenshots/guess-2.png)
+<div style="display: flex; gap: 10px;">
+   <img src="screenshots/guess-1.png" alt="Guess the Number - Start" width="300" />
+   <img src="screenshots/guess-2.png" alt="Guess the Number - Gameplay" width="300" />
+</div>
+
 
 ### Recipe List & Details
 Browse a list of recipes and view details for each recipe.
 
-![Recipe List](screenshots/recipe-1.png)
-![Recipe Details](screenshots/recipe-2.png)
+<div style="display: flex; gap: 10px;">
+   <img src="screenshots/recipe-1.png" alt="Recipe List" width="300" />
+   <img src="screenshots/recipe-2.png" alt="Recipe Details" width="300" />
+</div>
+
 
 ### Weather
 Displays current weather information for a selected location.
 
-![Weather Screen](screenshots/weather-1.png)
+<img src="screenshots/weather-1.png" alt="Weather Screen" width="300" />
+
 
 ## Getting Started
 
